@@ -152,8 +152,8 @@ html {
 }
 
 body {
-  background-color: rgb(29, 26, 26);
-  color: rgb(238, 79, 211);
+  background-color: rgb(122, 110, 121);
+  /* color: rgb(238, 79, 211); */
   font-size: 1.6rem;
   line-height: 1.75;
 }
@@ -194,7 +194,7 @@ body {
 .h1,
 .h2,
 .h3 {
-  color: white;
+  color: var(--eerie-black-1);
   font-family: var(--ff-league_spartan);
   line-height: 1;
 }
