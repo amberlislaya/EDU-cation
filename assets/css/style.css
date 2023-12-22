@@ -153,7 +153,7 @@ html {
 
 body {
   background-color: rgb(29, 26, 26);
-  color: var(--gray-web);
+  color: white;
   font-size: 1.6rem;
   line-height: 1.75;
 }
