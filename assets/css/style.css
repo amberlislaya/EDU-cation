@@ -1,24 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
 
   --selective-yellow: hsl(143, 94%, 55%);
   --eerie-black-1: hsl(0, 0%, 9%);
@@ -38,15 +21,10 @@
   --kappel: hsl(283, 85%, 23%);
   --white: hsl(0, 0%, 100%);
 
-  /**
-   * gradient color
-   */
 
   --gradient: linear-gradient(-90deg,hsl(151, 58%, 46%) 0%,hsl(170, 75%, 41%) 100%);
 
-  /**
-   * typography
-   */
+ 
 
   --ff-league_spartan: 'League Spartan', sans-serif;
   --ff-poppins: 'Poppins', sans-serif; 
@@ -62,23 +40,17 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * spacing
-   */
+  
 
   --section-padding: 75px;
 
-  /**
-   * shadow
-   */
+  
 
   --shadow-1: 0 6px 15px 0 hsla(0, 0%, 0%, 0.05);
   --shadow-2: 0 10px 30px hsla(0, 0%, 0%, 0.06);
   --shadow-3: 0 10px 50px 0 hsla(220, 53%, 22%, 0.1);
 
-  /**
-   * radius
-   */
+ 
 
   --radius-pill: 500px;
   --radius-circle: 50%;
@@ -86,9 +58,7 @@
   --radius-5: 5px;
   --radius-10: 10px;
 
-  /**
-   * transition
-   */
+ 
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
@@ -101,9 +71,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+
 
 *,
 *::before,
@@ -172,9 +140,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 15px; }
 
@@ -299,9 +264,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+
 
 .header .btn { display: none; }
 
@@ -413,12 +376,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
 .hero { padding-block-start: calc(var(--section-padding) + 80px); }
 
 .hero .container {
@@ -455,10 +412,6 @@ body {
 
 
 
-
-/*-----------------------------------*\
-  #CATEGORY
-\*-----------------------------------*/
 
 .category .section-subtitle { color: var(--radical-red); }
 
@@ -502,11 +455,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
 
 .about {
   padding-block-start: 0;
@@ -568,11 +516,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
-  #COURSE
-\*-----------------------------------*/
 
 .course { background-color: var(--isabelline); }
 
@@ -691,9 +634,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #VIDEO
-\*-----------------------------------*/
+
 
 .video {
   background-size: contain;
@@ -735,9 +676,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #STATS
-\*-----------------------------------*/
+
 
 .stats-card {
   text-align: center;
@@ -762,9 +701,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
 
 .blog-card .card-banner { border-radius: var(--radius-10); }
 
@@ -849,9 +785,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
+
 
 .footer {
   background-repeat: no-repeat;
@@ -925,9 +859,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #BACK TO TOP
-\*-----------------------------------*/
+
 
 .back-top-btn {
   position: fixed;
@@ -954,19 +886,12 @@ body {
 
 
 
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
 
-/**
- * responsive for large than 575px screen
- */
+
 
 @media (min-width: 575px) {
 
-  /**
-   * REUSED STYLE
-   */
+ 
 
   .container {
     max-width: 520px;
@@ -980,9 +905,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  
 
   .header .container { max-width: unset; }
 
@@ -990,33 +913,15 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  
 
   .hero-banner { grid-template-columns: 1fr 0.9fr; }
 
 
-
-  /**
-   * VIDEO
-   */
-
   .video .play-btn { padding: 25px; }
-
-
-
-  /**
-   * STATS
-   */
 
   .stats-card { padding: 40px 30px; }
 
-
-
-  /**
-   * FOOTER
-   */
 
   .footer-brand,
   .footer-list:last-child { grid-column: 1 / 3; }
@@ -1036,22 +941,13 @@ body {
 
 
 
-
-/**
- * responsive for large than 768px screen
- */
-
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+ 
 
   :root {
 
-    /**
-     * typography
-     */
+   
 
     --fs-1: 4.6rem;
     --fs-2: 3.8rem;
@@ -1060,9 +956,6 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 720px; }
 
@@ -1072,9 +965,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  
 
   .header .container { padding-inline: 30px; }
 
@@ -1086,9 +977,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+
 
   .hero { padding-block-start: calc(var(--section-padding) + 90px); }
 
@@ -1116,9 +1005,7 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
+
 
   .about { padding-block-start: 50px; }
 
@@ -1140,9 +1027,7 @@ body {
 
 
 
-  /**
-   * FOOTER
-   */
+  
 
   .footer-brand,
   .footer-list:last-child { grid-column: auto; }
@@ -1155,21 +1040,14 @@ body {
 
 
 
-/**
- * responsive for large than 992px screen
- */
 
 @media (min-width: 992px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  
 
   :root {
 
-    /**
-     * typography
-     */
+    
 
     --fs-1: 5.5rem;
     --fs-2: 4.5rem;
@@ -1178,9 +1056,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  
 
   .container { max-width: 960px; }
 
@@ -1190,9 +1066,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  
 
   .hero .container {
     grid-template-columns: 1fr 1fr;
@@ -1206,9 +1080,7 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
+ 
 
   .about .container {
     grid-template-columns: 1fr 0.6fr;
@@ -1218,9 +1090,7 @@ body {
 
 
 
-  /**
-   * VIDEO
-   */
+ 
 
   .video-banner {
     max-width: 75%;
@@ -1229,9 +1099,7 @@ body {
 
 
 
-  /**
-   * FOOTER
-   */
+  
 
   .footer .grid-list { grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr; }
 
@@ -1241,37 +1109,23 @@ body {
 
 
 
-/**
- * responsive for large than 1200px screen
- */
+
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * typography
-     */
 
     --fs-1: 6.5rem;
 
-    /**
-     * spacing
-     */
 
     --section-padding: 120px;
 
   }
 
 
-
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 1185px; }
 
@@ -1281,11 +1135,6 @@ body {
   .video-card,
   .blog { position: relative; }
 
-
-
-  /**
-   * HEADER
-   */
 
   .header-action-btn:last-child,
   .navbar .wrapper,
@@ -1321,10 +1170,6 @@ body {
 
 
 
-  /**
-   * HERO
-   */
-
   .hero { padding-block-start: calc(var(--section-padding) + 120px); }
 
   .hero .container { gap: 80px; }
@@ -1335,10 +1180,6 @@ body {
   }
 
 
-
-  /**
-   * ABOUT
-   */
 
   .about .container { gap: 110px; }
 
@@ -1360,9 +1201,7 @@ body {
 
 
 
-  /**
-   * VIDEO
-   */
+  
 
   .video-shape-1 {
     top: -50px;
@@ -1377,9 +1216,7 @@ body {
 
 
 
-  /**
-   * BLOG
-   */
+ 
 
   .blog-shape {
     top: 0;
